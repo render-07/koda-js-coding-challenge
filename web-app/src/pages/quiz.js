@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react'
 import fetchQuiz from '../api/quiz';
+import { Link } from 'react-router-dom'
 
 const Quiz = () => {
   const [quiz, setQuiz] = useState([]);
@@ -52,14 +53,13 @@ const Quiz = () => {
     setScore(0);
     setShowScore(false);
   }
-  
 
   return (
       <div className='page quiz-home'>
         {showScore ? (<div>
           <h1>Your score is: {score}</h1>
           <button onClick={() => resetGame()}>
-          Play again
+          <Link to="/">Play again</Link>
         </button>
         </div>) :
        ( <><div className='page-top'>
