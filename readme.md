@@ -53,3 +53,10 @@ We provide the design for the trivia app. You can check the figma file [here](ht
 ## Submission
 
 Please use git for version control and platforms like Github to host the repository. Once you have finished your challenge, send us the repository url. It would be even better if you can have a documentation for how to run your code in our environment.
+
+## Installation
+
+cd to folder called "server" and run "yarn" to install packages.
+cd to folder called "web-app" and run "yarn" to install packages.
+
+Open two terminals and go to each respective folders again, and run "yarn start" for each terminals.
