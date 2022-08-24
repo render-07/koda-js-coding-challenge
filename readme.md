@@ -2,8 +2,8 @@
 
 ## Installation
 
-cd to folder called "server" and run "yarn" to install packages.
-cd to folder called "web-app" and run "yarn" to install packages.
+Cd to folder called "server" and run "yarn" to install packages.
+Cd to folder called "web-app" and run "yarn" to install packages.
 
 Open two terminals and go to each respective folders again, and run "yarn start" for each terminals.
 
